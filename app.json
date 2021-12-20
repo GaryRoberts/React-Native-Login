@@ -1,15 +1,7 @@
 {
   "expo": {
-    "name": "React Native Login Screen Tutorial",
-    "slug": "react-native-login-screen-tutorial",
-    "description":"In this Project we're going to explore the React Native Login Screen Tutorial, and I have written a depth guide with examples in my Blog reactntativemaster.com, for future references. You can check the full Article here. https://reactnativemaster.com/react-native-login-screen-tutorial",
-    "privacy": "public",
-    "sdkVersion": "35.0.0",
-    "platforms": [
-      "ios",
-      "android",
-      "web"
-    ],
+    "name": "Application",
+    "slug": "Application",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -26,6 +18,15 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
     }
   }
 }
